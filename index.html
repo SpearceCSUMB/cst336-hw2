@@ -59,13 +59,13 @@
               <tr>
                 <td> HTML Textbook </td>
                 <td> $75.99 </td>
-                <td> Quantity: <input type="number" id="htmlNumberBox" placeholder="0" min="0" max="10000"></td>
+                <td> Quantity: <input type="number" id="htmlNumberBox" placeholder="0" min="0" max="10000" oninput="this.value = Math.abs(this.value)"></td>
                 <td id="htmlBookCost"> Total: $ </td>
               </tr>
               <tr>
                 <td> JavaScript Textbook </td>
                 <td> $84.99 </td>
-                <td> Quantity: <input type="number" id="javaNumberBox" placeholder="0" min="0" max="10000"></td>
+                <td> Quantity: <input type="number" id="javaNumberBox" placeholder="0" min="0" max="10000" oninput="this.value = Math.abs(this.value)"></td>
                 <td id="javaBookCost"> Total: $ </td>
               </tr>
               <tr>
@@ -105,6 +105,12 @@
             <br /><br /><br /><br /><br />
           </div> 
         </main>
+        <footer>
+          CST336 Internet Programming. 2019&copy; Pearce <br />
+          California State University Monterey Bay <br />
+          The information presented in this website is used for academic purposes only. <br />
+          No processors were harmed in the making of this website.
+  </footer>
       <script src="js/checkout.js"></script>
     </body>
 </html>
