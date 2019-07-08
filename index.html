@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Supplies</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+       
+        <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body id="bg">
+      <div class='container text-center'>
+        <header>
+          <h1> Student Supplies </h1>
+          <h4> Computer Science Books for Students </h4>
+        </header>
+        <br /><br />
+        <main>
+        <div class="row">
+          <div class="column">
+            <h2> HTML Textbook </h2>
+            <img src="img/htmlBook.png" alt="Picture of HTML book">
+            <p><br /> Ensure that your students are getting the best education they deserve by
+            supplying the best materials. This book provides the best tutorials for creating
+            websites, and developing CSS pages. As an added bonus this textbook also provides
+            easy to follow guides for the instructor. So what are you waiting for? Add some to 
+            the cart.</p>
+            <h4> Price: $75.99 each </h4>
+          </div>
+          <div class="column2">
+            <h2> JavaScript Textbook </h2>
+            <img src="img/javaScriptBook.png" alt="Picture of JavaScript book">
+            <p><br /> This textbook has pleanty of guides for students to follow, so you, the teacher,
+            can sit back and have an easy semester while the students learn. This book will be 
+            one of the wisest purchases you can make for you class. Students will be JavaScript 
+            ready once they complete this course. Add one to the cart, heck add a hundred!</p>
+            <h4> Price: $84.99 each </h4>
+          </div>
+        </div>
+          <div id="mainSubmit">
+            <br />
+            <div id="ship"> Free Shipping on orders over $1500.00. </div>
+            <br />
+            <button class="submitBtn btn btn-submit"> Order Materials </button>
+            <br /><br /><br /><br />
+          </div>
+          <div id="finishPurchase">
+            <h2> Checkout </h2>
+            <table id="checkoutTable">
+              <tr> 
+                <th> Item(s) </th>
+                <th> Cost </th>
+                <th> Quantity </th>
+                <th> Total </th>
+              </tr>
+              <tr>
+                <td> HTML Textbook </td>
+                <td> $75.99 </td>
+                <td> Quantity: <input type="number" id="htmlNumberBox" placeholder="0" min="0" max="10000"></td>
+                <td id="htmlBookCost"> Total: $ </td>
+              </tr>
+              <tr>
+                <td> JavaScript Textbook </td>
+                <td> $84.99 </td>
+                <td> Quantity: <input type="number" id="javaNumberBox" placeholder="0" min="0" max="10000"></td>
+                <td id="javaBookCost"> Total: $ </td>
+              </tr>
+              <tr>
+                <td>  </td>
+                <td>  </td>
+                <td><button id="updateCartBtn"> Update Cart </button></td>
+                <td id="subtotal"> Total: $ </td>
+              </tr>
+              <tr>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+                <td id="tax"> Tax (8.75): $</td>
+              </tr>
+              <tr>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+                <td id="shipping"> Shipping: $</td>
+              </tr>
+              <tr>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+                <td id="total"> Total: $ </td>
+              </tr>
+              <tr>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+                <td><button id="completeOrder"> Confirm Order </button></td>
+              </tr>
+            </table>
+            <div id= "thankyou">
+              Thank you for your purchase! Your items will arrive within two weeks of today!
+            </div>
+            <br /><br /><br /><br /><br />
+          </div> 
+        </main>
+      <script src="js/checkout.js"></script>
+    </body>
+</html>

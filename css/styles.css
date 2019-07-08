@@ -1,0 +1,102 @@
+.column {
+  float: left;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 5px solid #C9B122;
+  background: linear-gradient(to bottom right, #33cccc -11%, #ffff00 100%);
+  font-size: 15px;
+  font-family: 'DM Serif Text', serif;
+}
+.column2 {
+  float: left;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 5px solid #C9B122;
+  background: linear-gradient(to bottom left, #33cccc -11%, #ffff00 100%);
+  font-size: 15px;
+  font-family: 'DM Serif Text', serif;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-family: 'DM Serif Text', serif;
+}
+#bg {
+  background-color: #92E3FF;
+  font-family: 'DM Serif Text', serif;
+}
+.btn {
+  padding: 7px 7px;
+  margin: 0px 2px;
+  color: black;
+  border: 2px solid black;
+  font-family: 'DM Serif Text', serif;
+}
+#finishPurchase {
+  display: none;
+  font-family: 'DM Serif Text', serif;
+}
+#checkoutTable {
+  border-collapse:collapse;
+  table-layout: fixed;
+  width: 100%;
+  text-align: left;
+  background: linear-gradient(to top, #33cccc -19%, #ffff00 100%);
+  border: 5px solid #C9B122;
+  font-family: 'DM Serif Text', serif;
+  letter-spacing: 0.1em;
+}
+#checkoutTable td {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'DM Serif Text', serif;
+  letter-spacing: 0.1em;
+}
+#checkoutTable th {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'DM Serif Text', serif;
+  letter-spacing: 0.1em;
+}
+#checkoutTable tr {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'DM Serif Text', serif;
+  letter-spacing: 0.1em;
+}
+#thankyou {
+  display: none;
+  font-size: 25px;
+  font-family: 'DM Serif Text', serif;
+  letter-spacing: 0.1em;
+}
+main {
+  justify-content: center;
+  font-family: 'DM Serif Text', serif;
+}
+tr {
+  justify-content: center;
+  text-align: center;
+  font-family: 'DM Serif Text', serif;
+}
+#ship {
+  font-family: 'DM Serif Text', serif;
+  font-size: 18px;
+}
+
+
